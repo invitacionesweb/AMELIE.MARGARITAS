@@ -291,6 +291,18 @@ main p {
     width: 60px;
     padding-bottom: 10px;
 }
+.quote{
+    background-color: var(--color-secundario);
+    color: var(--color-principal);
+    text-align: center;
+    padding: 20px 0 ;
+}
+.quote p {
+     padding: 6px 40px;
+    max-width: 500px;
+    font-size: 1.2Rem;
+    margin: auto;
+}
 .end {
     background-image: url(./img/madeira1.png);
     background-position: center;
@@ -393,7 +405,7 @@ footer img {
         background-color: var(--color-terciario);
         background-image: url(./figuras/Group.png);
         width: 100%;
-        height: 60vh;
+        height: 80vh;
     }
     .fecha img{
         margin:  0 0 10px 0;
